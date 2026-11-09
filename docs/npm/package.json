@@ -1,0 +1,28 @@
+{
+  "name": "research-agent",
+  "version": "1.0.27",
+  "description": "WebSocket client for Research Agent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "research-agent",
+    "websocket",
+    "ai",
+    "research"
+  ],
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeunLawalKa/research-agent.git"
+  },
+  "author": "Research Agent Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeunLawalKa/research-agent/issues"
+  },
+  "homepage": "https://github.com/SeunLawalKa/research-agent#readme"
+}
