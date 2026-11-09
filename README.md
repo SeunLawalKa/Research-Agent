@@ -1,17 +1,8 @@
-<div align="center" id="top">
-
-<img src="https://github.com/SeunLawalKa/research-agent/assets/13554167/20af8286-b386-44a5-9a83-3be1365139c3" alt="Logo" width="80">
-
-
-</div>
-
 # 🔎 Research Agent
 
-**Research Agent the first open deep research agent designed for both web and local research on any given task.** 
+**Research Agent is an open deep research agent designed for research on any given task.** 
 
-The agent produces detailed, factual, and unbiased research reports with citations. Research Agent provides a full suite of customization options to create tailor made and domain specific research agents. Research Agent goes well beyond RAG: planner and execution agents break each task into research questions, [decision models](#-smart-context-filtering-with-jev) keep only the context that is actually useful for answering them, [multi-agent](#-multi-agent-assistant) workflows coordinate specialized agents from planning to publication, and [recursive deep research](#-deep-research) explores a topic in both breadth and depth. Research runs in parallel, which keeps it fast, stable and reliable, and reduces misinformation.
-
-**Our mission is to empower individuals and organizations with accurate, unbiased, and factual information through AI.**
+The agent produces detailed, factual, and unbiased research reports with citations. Research Agent provides a full suite of customization options to create tailor made and domain specific research agents. Research Agent goes well beyond RAG: planner and execution agents break each task into research questions, decision models keep only the context that is actually useful for answering them, multi-agent workflows coordinate specialized agents from planning to publication, and recursive deep research explores a topic in both breadth and depth. Research runs in parallel, which keeps it fast, stable and reliable, and reduces misinformation.
 
 ## Why Research Agent?
 
@@ -21,28 +12,9 @@ The agent produces detailed, factual, and unbiased research reports with citatio
 - Limited web sources in existing services lead to misinformation and shallow results.
 - Selective web sources can introduce bias into research tasks.
 
-## Demo
-<a href="https://www.youtube.com/watch?v=f60rlc_QCxE" target="_blank" rel="noopener">
-  <img src="https://github.com/user-attachments/assets/ac2ec55f-b487-4b3f-ae6f-b8743ad296e4" alt="Demo video" width="800" target="_blank" />
-</a>
-
-## Install as Claude Skill
-
-Extend Claude's deep research capabilities by installing Research Agent as a [Claude Skill](https://skills.sh/SeunLawalKa/research-agent/research-agent):
-
-```bash
-npx skills add SeunLawalKa/research-agent
-```
-
-Once installed, Claude can leverage Research Agent's deep research capabilities directly within your conversations.
-
 ## Architecture
 
 The core idea is to utilize 'planner' and 'execution' agents. The planner generates research questions, while the execution agents gather relevant information. The publisher then aggregates all findings into a comprehensive report.
-
-<div align="center">
-<img align="center" height="600" src="https://github.com/SeunLawalKa/research-agent/assets/13554167/4ac896fd-63ab-4b77-9688-ff62aafcc527">
-</div>
 
 Steps:
 * Create a task-specific agent based on a research query.
@@ -51,10 +23,6 @@ Steps:
 * Summarize and source-track each resource.
 * Filter and aggregate summaries into a final research report.
 
-## Tutorials
- - [How it Works](https://docs.gptr.dev/blog/building-research-agent)
- - [How to Install](https://www.loom.com/share/04ebffb6ed2a4520a27c3e3addcdde20?sid=da1848e8-b1f1-42d1-93c3-5b0b9c3b24ea)
- - [Live Demo](https://www.loom.com/share/6a3385db4e8747a1913dd85a7834846f?sid=a740fd5b-2aa3-457e-8fb7-86976f59f9b8)
 
 ## Features
 
