@@ -268,30 +268,6 @@ Step 2:
  - If you're running Research Agent with the [PIP package](https://docs.tavily.com/guides/research-agent/research-agent#pip-package), pass the `report_source` argument as "local" when you instantiate the `ResearchAgent` class [code sample here](https://docs.gptr.dev/docs/research-agent/context/tailored-research).
 
 
-## 🤖 MCP Server
-
-We've moved our MCP server to a dedicated repository: [gptr-mcp](https://github.com/SeunLawalKa/gptr-mcp).
-
-The Research Agent MCP Server enables AI applications like Claude to conduct deep research. While LLM apps can access web search tools with MCP, Research Agent MCP delivers deeper, more reliable research results.
-
-Features:
-- Deep research capabilities for AI assistants
-- Higher quality information with optimized context usage
-- Comprehensive results with better reasoning for LLMs
-- Claude Desktop integration
-
-For detailed installation and usage instructions, please visit the [official repository](https://github.com/SeunLawalKa/gptr-mcp).
-
-
-## 👪 Multi-Agent Assistant
-As AI evolves from prompt engineering and RAG to multi-agent systems, we're excited to introduce multi-agent assistants built with [LangGraph](https://python.langchain.com/v0.1/docs/langgraph/) and [AG2](https://github.com/ag2ai/ag2).
-
-By using multi-agent frameworks, the research process can be significantly improved in depth and quality by leveraging multiple agents with specialized skills. This project showcases how a team of AI agents can work together to conduct research on a given topic, from planning to publication.
-
-An average run generates a 5-6 page research report in multiple formats such as PDF, Docx and Markdown.
-
-Check it out [here](https://github.com/SeunLawalKa/research-agent/tree/master/multi_agents) or head over to our documentation for [LangGraph](https://docs.gptr.dev/docs/research-agent/multi_agents/langgraph) and [AG2](https://docs.gptr.dev/docs/research-agent/multi_agents/ag2) for more information.
-
 ## 🔍 Observability
 
 Research Agent supports **LangSmith** for enhanced tracing and observability, making it easier to debug and optimize complex multi-agent workflows.
@@ -307,7 +283,7 @@ To enable tracing:
 
 ## 🖥️ Frontend Applications
 
-research-agent now features an enhanced frontend to improve the user experience and streamline the research process. The frontend offers:
+research-agent features an enhanced frontend to improve the user experience and streamline the research process. The frontend offers:
 
 - An intuitive interface for inputting research queries
 - Real-time progress tracking of research tasks
@@ -320,27 +296,6 @@ Two deployment options are available:
 
 For detailed setup instructions and more information about the frontend features, please visit our [documentation page](https://docs.gptr.dev/docs/research-agent/frontend/introduction).
 
-## 🚀 Contributing
-We highly welcome contributions! Please check out [contributing](https://github.com/SeunLawalKa/research-agent/blob/master/CONTRIBUTING.md) if you're interested.
-
-Please check out our [roadmap](https://trello.com/b/3O7KBePw/research-agent-roadmap) page and reach out to us via our [Discord community](https://discord.gg/QgZXvJAccX) if you're interested in joining our mission.
-<a href="https://github.com/SeunLawalKa/research-agent/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=SeunLawalKa/research-agent&max=1000" />
-</a>
-## ✉️ Support / Contact us
-- [Community Discord](https://discord.gg/spBgZmm3Xe)
-- Author Email: seunlawalka@gmail.com
-
-## 🛡 Disclaimer
-
-This project, Research Agent, is an experimental application and is provided "as-is" without any warranty, express or implied. We are sharing codes for academic purposes under the Apache 2 license. Nothing herein is academic advice, and NOT a recommendation to use in academic or research papers.
-
-Our view on unbiased research claims:
-1. The main goal of Research Agent is to reduce incorrect and biased facts. How? We assume that the more sites we scrape the less chances of incorrect data. By scraping multiple sites per research, and choosing the most frequent information, the chances that they are all wrong is extremely low.
-2. We do not aim to eliminate biases; we aim to reduce it as much as possible. **We are here as a community to figure out the most effective human/llm interactions.**
-3. In research, people also tend towards biases as most have already opinions on the topics they research about. This tool scrapes many opinions and will evenly explain diverse views that a biased person would never have read.
-
----
 
 <p align="center">
 <a href="https://star-history.com/#SeunLawalKa/research-agent">
